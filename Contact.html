@@ -28,7 +28,7 @@
       <article class="post" lang="en" itemscope itemtype="http://schema.org/BlogPosting" >
 
   <header class="post-header">
-  <a class="site-title" href="/worldCO2_SocialData_FinalProject/">Home</a>
+  <a class="site-title" href="/worldCO2_SocialData_FinalProject/" style="color: #ca3d43;">Home</a>
   <h1 class="post-title baseline-fix" itemprop="name headline">Contact us</h1>
 </header>
 
@@ -36,7 +36,17 @@
 
 
   <div class="post-content" itemprop="articleBody">
-    
+    <div class="post-content" itemprop="articleBody">
+        <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" required></textarea><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
 
   </div>
 
